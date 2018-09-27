@@ -8,5 +8,5 @@ Master thesis - using deep learning for action recognition
 4. Research the possibility of (frame) padding videos < 300 frames
 5. Research the possibility of stop frame translation > 300 frames
 
-
+#
 Stian Heilund & Sindre Eik de Lange
