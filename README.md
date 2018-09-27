@@ -2,10 +2,29 @@
 Master thesis - using deep learning for action recognition
 
 ## Tools
-Using the pre-trained model from st-gcn: https://github.com/yysijie/st-gcn (Kinetics)
-> Necessary software installations etc., are described in that project (should probably add it here later as well)
+Using the pre-trained model from st-gcn: https://github.com/yysijie/st-gcn (Kinetics), which is added as a submodule.
 
-### NOTE: Most/all commands that involves st-gcn requires the user to be in the 'st-gcn' folder
+```
+git clone https://github.com/heilund/action-recognition.git
+```
+```
+git submodule init
+```
+```
+cd st-gcn/
+```
+## *From st-gcn*
+**Installation**
+```
+cd torchlight; python setup.py install; cd ..
+```
+**Get pretrained models**
+```
+bash tools/get_models.sh
+```
+The downloaded models will be stored under ./models.
+
+**NOTE:** Most/all commands that involves st-gcn requires the user to be in the 'st-gcn' folder
 
 ## TODO
 1. Refactor code
