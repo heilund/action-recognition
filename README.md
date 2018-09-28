@@ -17,6 +17,9 @@ git submodule init
 ```
 cd st-gcn/
 ```
+```
+git submodule update --init/
+```
 ## *From st-gcn*
 **Installation**
 ```
